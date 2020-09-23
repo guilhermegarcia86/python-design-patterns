@@ -1,9 +1,7 @@
-from abstractFactory.abstractFactory import AbstractFactory
-from abstractFactory.factory import InvoiceFactory
+from abstract_factory.factory import InvoiceFactory
 
-invoiceIcms = "ICMS"
-invoiceIss = "ISS"
+invoice_icms = "ICMS"
 
-invoice = InvoiceFactory.create_invoice(invoiceIcms)
+invoice = InvoiceFactory.create_invoice(invoice_icms)
 
 print(invoice)
