@@ -1,4 +1,4 @@
-from abstractFactory.invoice import Invoice
+from abstract_factory.invoice import Invoice
 
 
 class InvoiceIss(Invoice):
